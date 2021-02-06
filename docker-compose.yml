@@ -20,7 +20,7 @@ services:
       - ./timegaptheory:/var/www/html/timegaptheory
       - ./index.php:/var/www/html/index.php
     ports:
-      - 80:80
+      - 8080:80
     depends_on:
       - mysql
     environment:
